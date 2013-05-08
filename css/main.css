@@ -93,6 +93,26 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.breadcrumb {
+	list-style: none;
+	font-size: 0.8em;
+}
+.breadcrumb li {
+	display: inline-block;
+	margin-right: 1em;
+}
+.breadcrumb li i {
+	margin: 0px 3px;
+}
+
+a {
+	color: #006600;
+	text-decoration: none;
+}
+a:hover {
+	color: #669E00;
+	text-decoration: underline;
+}
 
 
 

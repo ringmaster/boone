@@ -32,6 +32,10 @@
 <div class="grid">
 	<div class="column col_12">
 		<form class="vertical">
+			<ul class="breadcrumb">
+				<li class="project"><a href="#"><i class="icon-home"></i>Project</a></li>
+				<li class="list"><a href="#"><i class="icon-folder-open"></i>List</a></li>
+			</ul>
 			<input type="text">
 		</form>
 	</div>
