@@ -16,9 +16,10 @@
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/main.css">
-	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+	<link rel="stylesheet" href="../css/normalize.css">
+	<link rel="stylesheet" href="../css/kickstart.css">
+	<link rel="stylesheet" href="../css/main.css">
+	<script src="../js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
 <body>
 <!--[if lt IE 7]>
@@ -28,14 +29,22 @@
 </div>
 <![endif]-->
 
-<!-- Add your site or application content here -->
+<div class="grid">
+	<div class="column col_12">
+		<form class="vertical">
+			<input type="text">
+		</form>
+	</div>
+</div>
+
 
 
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-<script src="js/plugins.js"></script>
-<script src="js/main.js"></script>
+<script>window.jQuery || document.write('<script src="../js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="../js/plugins.js"></script>
+<script src="../js/vendor/kickstart.js"></script>
+<script src="../js/main.js"></script>
 
 </body>
 </html>

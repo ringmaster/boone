@@ -243,6 +243,8 @@ AddDefaultCharset utf-8
     RewriteRule ^ http://%1%{REQUEST_URI} [R=301,L]
 </IfModule>
 
+FallbackResource /index.php
+
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 # Option 2: rewrite example.com → www.example.com
